@@ -43,7 +43,8 @@ def down():
         else:
             move()
             turn_right()
-# This will just walk if no wall is in front; if a wall is reached, big_wall() will begin
+# This will walk if no wall is in front; 
+# if a wall is reached, big_wall() will begin
 def walk():
     while front_is_clear():
         move()
